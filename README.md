@@ -9,7 +9,7 @@ I build practical software, tooling, and backend-driven systems, with experience
 
 ## Personal website
 
-[Visit my portfolio website]([https://your-username.github.io/GlebTut/](https://glebtut.github.io/GlebTut/)
+[Visit my portfolio website]([https://your-username.github.io/GlebTut/](https://glebtut.github.io/GlebTut/))
 
 ---
 
