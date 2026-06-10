@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gleb Tutubalin | Software Development Student</title>
+  <meta name="description" content="Gleb Tutubalin — Software Development Student at SETU Carlow. Focused on software engineering, test engineering, QA, and tooling." />
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=cabinet-grotesk@500,700,800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top"><span class="logo-mark">GT</span><span>Gleb Tutubalin</span></a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <span class="lang-switch" aria-label="Language switcher">
+          <a class="active" href="./index.html">EN</a>
+          <a href="./ru.html">RU</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Software Engineering | Test Engineering | QA</span>
+          <h1>Gleb Tutubalin</h1>
+          <p class="hero-sub">Fourth-year Software Development student at South East Technological University (SETU), Carlow, Ireland, expected to graduate in 2027.</p>
+          <p class="hero-copy">I build practical software, testing tools, and database-backed applications. My current focus is a final-year project on branch coverage instrumentation for C programs, alongside experience in IT administration, systems work, and web and desktop development.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See My Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            <a class="btn btn-ghost" href="#contact">Download CV</a>
+          </div>
+        </div>
+        <aside class="panel">
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-key">Focus</span>
+              <span class="stat-val">Software · Testing · Tooling</span>
+            </div>
+            <div class="stat">
+              <span class="stat-key">Base</span>
+              <span class="stat-val">Carlow, Ireland</span>
+            </div>
+            <div class="stat">
+              <span class="stat-key">Languages</span>
+              <span class="stat-val">English & Russian</span>
+            </div>
+            <div class="stat">
+              <span class="stat-key">Open to</span>
+              <span class="stat-val">Internship / Junior</span>
+            </div>
+          </div>
+          <p class="panel-note">Currently building a branch coverage instrumentation tool for C programs as a research-focused final-year project.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">About</span>
+          <h2>A practical engineer with a hands-on IT mindset.</h2>
+          <p>I like problems that need structure: debugging, tooling, backend logic, and software that has to work reliably. I work well both independently and in teams, and I prefer clear technical decisions over vague ideas.</p>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <h3>How I work</h3>
+            <p>I solve problems step by step, document what matters, and build software in a way that can be maintained later. I value disciplined engineering and measurable results.</p>
+          </article>
+          <article class="card">
+            <h3>Additional information</h3>
+            <p>Candidate for Master of Sport in Judo with competition and coaching experience. Currently training in MMA. Fluent in English and Russian.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Projects</span>
+          <h2>Selected engineering work.</h2>
+          <p>These projects show research-oriented tooling, structured desktop development, and practical business software with real data and workflow logic.</p>
+        </div>
+        <div class="grid2" style="margin-bottom:1.2rem">
+          <article class="card">
+            <span class="eyebrow">Project 01 · 2026 – Present</span>
+            <h3 style="margin-top:.8rem">C2obra – Branch Coverage Tool for C Programs</h3>
+            <p>Built an automated branch coverage instrumentation tool for C programs as a research-focused final-year project. Implemented AST-based source parsing with tree-sitter to detect and instrument if/else, while, for, and switch branches. Created a Python pipeline that injects a C runtime library, records branch hit counters, and generates HTML coverage reports. Evaluated the tool against TestCoCa, TestCov, and Sikraken using standardized benchmark programs.</p>
+            <div class="tags">
+              <span class="tag">C</span>
+              <span class="tag">Python</span>
+              <span class="tag">Bash</span>
+              <span class="tag">Make</span>
+              <span class="tag">Linux</span>
+              <span class="tag">tree-sitter</span>
+              <span class="tag">Gcov/LCOV</span>
+            </div>
+            <a class="repo-link" href="https://github.com/GlebTut/c2obra" target="_blank" rel="noopener noreferrer">github.com/GlebTut/c2obra ↗</a>
+          </article>
+          <article class="card">
+            <span class="eyebrow">Project 02 · 2024</span>
+            <h3 style="margin-top:.8rem">AutoSphere – Garage Management System</h3>
+            <p>Worked in a team of five to build a garage management system with invoicing and payment modules. Implemented DAO and service-layer patterns and contributed to database schema design and optimization. The system handles customer records, vehicle history, invoicing, and payment workflows.</p>
+            <div class="tags">
+              <span class="tag">Java</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">MVC</span>
+              <span class="tag">DAO</span>
+            </div>
+            <a class="repo-link" href="https://github.com/GlebTut/Garage_Management_System" target="_blank" rel="noopener noreferrer">github.com/GlebTut/Garage_Management_System ↗</a>
+          </article>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <span class="eyebrow">Project 03 · 2024</span>
+            <h3 style="margin-top:.8rem">Auction System – Desktop Application</h3>
+            <p>Built a desktop auction application with lot management, bidding, and user authentication. Applied MVC and DAO patterns, designed a normalized relational database schema, and implemented input validation plus role-based access control.</p>
+            <div class="tags">
+              <span class="tag">Java Swing</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">MVC</span>
+            </div>
+            <a class="repo-link" href="https://github.com/GlebTut/Auction_System_Project" target="_blank" rel="noopener noreferrer">github.com/GlebTut/Auction_System_Project ↗</a>
+          </article>
+          <article class="card">
+            <span class="eyebrow">Project 04 · 2024</span>
+            <h3 style="margin-top:.8rem">x86_64 Assembly Projects</h3>
+            <p>Developed low-level x86_64 assembly programs using Linux system calls. The work demonstrates process management, OS interaction, and an understanding of CPU architecture and memory behavior.</p>
+            <div class="tags">
+              <span class="tag">NASM</span>
+              <span class="tag">x86_64</span>
+              <span class="tag">Linux syscalls</span>
+              <span class="tag">C</span>
+            </div>
+            <a class="repo-link" href="https://github.com/GlebTut/Parameter-Passing-Example---68000-to-x86_64-Conversion" target="_blank" rel="noopener noreferrer">github.com/GlebTut/Parameter-Passing ↗</a>
+            <a class="repo-link" href="https://github.com/GlebTut/OS_PROJECT" target="_blank" rel="noopener noreferrer">github.com/GlebTut/OS_PROJECT ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Technical Skills</span>
+          <h2>Stack, tools, and concepts.</h2>
+        </div>
+        <div class="grid3" style="margin-bottom:1.2rem">
+          <article class="card">
+            <h3>Programming Languages</h3>
+            <p>Java, C, Python, JavaScript, PHP, Bash/Shell, x86_64 Assembly (NASM).</p>
+          </article>
+          <article class="card">
+            <h3>Web Technologies</h3>
+            <p>HTML, CSS, React, Angular, .NET, AJAX.</p>
+          </article>
+          <article class="card">
+            <h3>Databases</h3>
+            <p>MySQL, MariaDB.</p>
+          </article>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <h3>Tools & Platforms</h3>
+            <p>Git, Linux, Make, Gcov/LCOV, tree-sitter, StarUML, LibreOffice.</p>
+          </article>
+          <article class="card">
+            <h3>Concepts</h3>
+            <p>Data Structures, Algorithms, OOP, Design Patterns (MVC, DAO), Agile/Scrum, AST Parsing, Branch Coverage Instrumentation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <section id="education">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Education</span>
+          <h2>Academic background.</h2>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <h3>BSc in Software Development</h3>
+            <p><strong>South East Technological University (SETU), Carlow, Ireland</strong><br>2024 – 2027 (expected)</p>
+            <p style="margin-top:.7rem">Year 1 GPA: 79.75% | Year 2 GPA: 77.58% | Year 3 GPA: 70.83%</p>
+            <p style="margin-top:.7rem">Relevant coursework: Software Engineering, Advanced Data Structures and Algorithms, Operating Systems, Cloud Development, Assembly and C, Systems Analysis and Testing, Object-Oriented Software Development, Web Programming and Databases, Computer Networks, Digital Logic.</p>
+          </article>
+          <article class="card">
+            <h3>Higher Education Preparation Certificate</h3>
+            <p><strong>Professional English C1 | NFQ Level 6SETU, Carlow, Ireland</strong><br>2022 – 2023</p>
+            <p style="margin-top:.7rem">GPA: 83.91% | Classification: Pass</p>
+            <p style="margin-top:.7rem">Modules: English for Professional Communication, Introduction to Information Technology, Introduction to Mathematics, Study Skills, Cultural Competencies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Experience</span>
+          <h2>Work experience.</h2>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <h3>IT Administrator</h3>
+            <p><strong>Megawatt, Russia</strong><br>June 2025 – August 2025</p>
+            <p style="margin-top:.7rem">Rebuilt and optimized the company’s internal network infrastructure, integrated cloud storage, configured external connections and printers, deployed new systems, and provided technical support to reduce downtime.</p>
+          </article>
+          <article class="card">
+            <h3>Web Developer / IT Administrator </h3>
+            <p><strong>Lombard Companion, Russia</strong><br>June 2024 – August 2024</p>
+            <p style="margin-top:.7rem">Developed and published the company website, set up and maintained office IT infrastructure (network, internet, printers, and employee workstations), supported digital operations and assisted with basic online advertising setup, as well as provided user support and resolved day-to-day technical issues.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's connect.</h2>
+          <p>Email, GitHub, and LinkedIn are the fastest ways to reach me. Open to internship roles and junior positions.</p>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <h3>Contact links</h3>
+            <div class="links" style="margin-top:1rem">
+              <a class="link-row" href="mailto:glebtutubalin@gmail.com">
+                <span>Email</span>
+                <span>glebtutubalin@gmail.com</span>
+              </a>
+              <a class="link-row" href="tel:+353874342849">
+                <span>Phone</span>
+                <span>+353 87 434 2849</span>
+              </a>
+              <a class="link-row" href="https://github.com/GlebTut" target="_blank" rel="noopener noreferrer">
+                <span>GitHub</span>
+                <span>github.com/GlebTut</span>
+              </a>
+              <a class="link-row" href="https://www.linkedin.com/in/gleb-tutubalin/" target="_blank" rel="noopener noreferrer">
+                <span>LinkedIn</span>
+                <span>linkedin.com/in/gleb-tutubalin</span>
+              </a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Download CV</h3>
+            <div class="downloads">
+              <a class="dl-btn" href="./Gleb-Tutubalin-CV-EN.pdf" download>
+                <span>English CV</span>
+                <span>↓</span></a>
+                <a class="dl-btn" href="./Gleb-Tutubalin-CV-RU.pdf" download>
+                  <span>Russian CV</span>
+                  <span>↓</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Gleb Tutubalin</span>
+      <span>Software Development Student · Carlow, Ireland</span>
+    </div>
+  </footer>
+</body>
+</html>
