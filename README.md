@@ -1,69 +1,66 @@
 # Hi, I'm Gleb 👋
 
-**Junior Software Engineer | Test Engineer | QA Engineer**
+**Junior Software Engineer · Backend Developer · Developer Tools**
 
-Fourth-year Software Development student at South East Technological University (SETU), Carlow, Ireland.  
-I build practical software, tooling, and backend-driven systems, with experience developing projects from scratch across frontend, backend, and database layers.
+I'm a final-year BSc Software Development student at South East Technological University (SETU) in Carlow, Ireland, graduating in 2027.  
+I build software tools, database-backed applications, and web systems in C, Java, Python, JavaScript, and MySQL.
 
-**Open to junior roles, internships, and selected freelance opportunities.**
+**Looking for a full-time junior or graduate role in Ireland** in software engineering, backend development, developer tooling, or test engineering.
 
-## Personal website
-
-[Visit my portfolio website](https://glebtut.github.io/GlebTut/)
-
----
-
-## About Me
-
-- Building projects in **C, Java, Python, and JavaScript**
-- Interested in **software engineering, backend development, tooling, QA, and test engineering**
-- Comfortable with **Linux, Git, MySQL**, and design patterns such as **MVC** and **DAO**
-- Experienced in **independent technical work, documentation, and practical problem-solving**
-- Fluent in **English and Russian**
+🌐 **Portfolio:** [glebtut.github.io/GlebTut](https://glebtut.github.io/GlebTut/) ([English](https://glebtut.github.io/GlebTut/) · [Русский](https://glebtut.github.io/GlebTut/ru.html))  
+📄 **CV:** [English (PDF)](https://glebtut.github.io/GlebTut/assets/Gleb-Tutubalin-CV-EN.pdf) · [Russian (PDF)](https://glebtut.github.io/GlebTut/assets/Gleb-Tutubalin-CV-RU.pdf)
 
 ---
 
-## Featured Projects
+## 🔭 Featured projects
 
-### [C2obra](https://github.com/GlebTut/c2obra)
-Branch coverage tool for C programs developed as a research-focused final-year project.  
-Built with AST-based parsing and instrumentation to generate branch coverage data and HTML reports.
+### [C2obra: Branch Coverage Instrumentation Tool for C](https://github.com/GlebTut/c2obra) · *final-year project, 2026 – present*
+- Uses **tree-sitter** AST parsing to instrument `if`, `while`, `for`, `do-while`, `switch`, and ternary branches in C code
+- Injects a custom **C runtime library** that records branch hit counters
+- A **Python pipeline** runs Sikraken-generated test inputs in parallel and produces HTML and CSV coverage reports
+- **GitHub Actions CI/CD** runs the tool across benchmarks and publishes reports to GitHub Pages ([live dashboard](https://glebtut.github.io/c2obra/))
+- Evaluated on Test-Comp benchmarks against **TestCoCa, TestCov, and Sikraken**
 
-### [Auction System Project](https://github.com/GlebTut/Auction_System_Project)
-Desktop auction application with authentication, lot management, bidding workflows, and relational database design.  
-Built from scratch using Java Swing, MySQL, and MVC principles.
+`C` `Python` `Bash` `Make` `Linux` `tree-sitter` `gcov/lcov` `GitHub Actions`
 
-### [Garage Management System](https://github.com/GlebTut/Garage_Management_System)
-PHP, Hack, JavaScript, and CSS-based web application for managing customers, vehicles, invoicing, and payment workflows.  
-Developed as part of a team project with practical backend and database design work.
+### [AutoSphere: Garage Management System](https://github.com/GlebTut/Garage_Management_System) · *team of five, 2024*
+Web application for customer records, vehicle history, invoicing, and payments. I implemented the DAO and service-layer patterns and contributed to database schema design and optimisation.
 
----
+`PHP` `JavaScript` `CSS` `MySQL` `MVC` `DAO`
 
-## Tech Stack
+### [Auction System](https://github.com/GlebTut/Auction_System_Project) · *desktop app, 2024*
+Desktop auction application with authentication, lot management, and bidding, built on a normalised relational schema with input validation and role-based access control.
 
-**Languages:** Java, C, C++, Python, JavaScript, PHP, Bash/Shell, x86_64 Assembly  
-**Frontend:** HTML, CSS, React, Angular, AJAX  
-**Backend / Data:** MySQL, MariaDB, .NET  
-**Tools & Platforms:** Git, Linux, Make, Gcov/LCOV, tree-sitter  
-**Concepts:** OOP, Data Structures, Algorithms, MVC, DAO, Agile/Scrum, AST Parsing, Branch Coverage Instrumentation
+`Java Swing` `MySQL` `MVC` `DAO`
 
----
+### x86_64 Assembly Projects · *2025*
+Low-level programs using Linux system calls for process management and OS interaction: [Parameter passing (68000 → x86_64)](https://github.com/GlebTut/Parameter-Passing-Example---68000-to-x86_64-Conversion) · [OS project](https://github.com/GlebTut/OS_PROJECT)
 
-## Current Focus
-
-- Software engineering, frontend and backend development
-- QA and test engineering
-- Tooling and automation
-- Building a strong portfolio for both employment and freelance work
+`NASM` `x86_64` `Linux syscalls` `C`
 
 ---
 
-## Contact
+## 🛠️ Tech stack
+
+**Languages**: C, C++, Java, Python, Go, JavaScript, PHP, Bash, x86_64 Assembly (NASM)  
+**Databases**: MySQL, MariaDB, relational schema design  
+**Web**: HTML, CSS, React, Angular, .NET, AJAX  
+**Tools & platforms**: Linux, Git, GitHub, GitHub Actions, GCC, Make, gcov/lcov, tree-sitter, StarUML  
+**Concepts**: Data structures & algorithms, OOP, MVC, DAO, service-layer architecture, AST parsing, branch coverage instrumentation, debugging, Agile/Scrum
+
+---
+
+## 💼 Experience
+
+- **IT Administrator**, Megawatt LLC (Jun – Aug 2025): rebuilt the company's internal network, integrated cloud storage, and deployed new systems
+- **Web Developer / IT Administrator**, Lombard Companion LLC (Jun – Aug 2024): built and published the company website and ran office IT
+
+---
+
+## 📫 Contact
 
 - Email: [glebtutubalin@gmail.com](mailto:glebtutubalin@gmail.com)
-- GitHub: [github.com/GlebTut](https://github.com/GlebTut)
 - LinkedIn: [linkedin.com/in/gleb-tutubalin](https://www.linkedin.com/in/gleb-tutubalin/)
+- Website: [glebtut.github.io/GlebTut](https://glebtut.github.io/GlebTut/)
 
----
-
-Pinned repositories are the best starting point for my work.
+🗣️ English and Russian (both fluent) · 🥋 Judo (Candidate for Master of Sport) and MMA

@@ -3,66 +3,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Глеб Тутубалин | Студент разработки ПО</title>
-  <meta name="description" content="Глеб Тутубалин — студент разработки ПО в SETU Carlow. Ориентирован на разработку ПО, тест-инжиниринг, QA и tooling." />
-  <link rel="preconnect" href="https://api.fontshare.com">
+  <title>Глеб Тутубалин | Junior Software Engineer</title>
+  <meta name="description" content="Глеб Тутубалин — студент выпускного курса BSc Software Development в SETU (Карлоу, Ирландия). Ищу junior/graduate-позицию в разработке ПО, backend-разработке, инструментах для разработчиков и тестировании." />
+  <meta name="author" content="Глеб Тутубалин" />
+  <meta name="theme-color" content="#0b0d0c" />
+  <link rel="canonical" href="https://glebtut.github.io/GlebTut/ru.html" />
+  <link rel="alternate" hreflang="en" href="https://glebtut.github.io/GlebTut/" />
+  <link rel="alternate" hreflang="ru" href="https://glebtut.github.io/GlebTut/ru.html" />
+  <link rel="alternate" hreflang="x-default" href="https://glebtut.github.io/GlebTut/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Глеб Тутубалин | Junior Software Engineer" />
+  <meta property="og:description" content="Студент выпускного курса Software Development в SETU Carlow. Автор C2obra — инструмента для измерения покрытия ветвей в программах на C." />
+  <meta property="og:url" content="https://glebtut.github.io/GlebTut/ru.html" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:locale:alternate" content="en_IE" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0d0c'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='28' fill='%237ac2c7'%3EGT%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
   <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=cabinet-grotesk@500,700,800&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="#top">
-        <span class="logo-mark">GT</span><span>Глеб Тутубалин</span>
-      </a>
-      <nav class="nav">
+      <a class="brand" href="#top"><span class="logo-mark" aria-hidden="true">GT</span><span>Глеб Тутубалин</span></a>
+      <nav class="nav" aria-label="Основное меню">
         <a href="#about">Обо мне</a>
         <a href="#projects">Проекты</a>
         <a href="#skills">Навыки</a>
-        <a href="#education">Образование</a>
         <a href="#experience">Опыт</a>
+        <a href="#education">Образование</a>
         <a href="#contact">Контакты</a>
-        <span class="lang-switch" aria-label="Language switcher">
-          <a href="./index.html">EN</a>
-          <a class="active" href="./ru.html">RU</a>
+        <span class="lang-switch" role="group" aria-label="Язык">
+          <a href="./index.html" hreflang="en" lang="en">EN</a>
+          <a class="active" href="./ru.html" hreflang="ru" lang="ru" aria-current="page">RU</a>
         </span>
       </nav>
     </div>
   </header>
-  <main>
+
+  <main id="main">
+
     <section class="hero" id="top">
       <div class="container hero-grid">
         <div>
-          <span class="eyebrow">Разработка ПО | Тестирование | QA</span>
+          <span class="eyebrow">Разработка ПО · Backend · Инструменты разработчика</span>
           <h1>Глеб Тутубалин</h1>
-          <p class="hero-sub">Студент 4-го курса факультета Software Development в South East Technological University (SETU), Карлоу, Ирландия. Ожидаемый выпуск — 2027 год.</p>
-          <p class="hero-copy">Я создаю практичные приложения, инструменты для тестирования и системы с базами данных. Сейчас мой главный проект — инструмент для инструментирования покрытия ветвей в C-программах; также у меня есть опыт в IT-администрировании, системной работе, веб-разработке и desktop-разработке.</p>
+          <p class="hero-sub">Студент выпускного, четвёртого курса программы BSc Software Development в South East Technological University (SETU), Карлоу, Ирландия. Выпуск — 2027 год.</p>
+          <p class="hero-copy">Разрабатываю инструменты для разработчиков, приложения с базами данных и веб-системы на C, Java, Python, JavaScript и MySQL. Мой дипломный проект C2obra — инструмент для измерения покрытия ветвей (branch coverage) в программах на C на основе AST, с собственной runtime-библиотекой, конвейером на Python и CI в GitHub Actions.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">Посмотреть проекты</a>
+            <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+            <a class="btn btn-ghost" href="./assets/Gleb-Tutubalin-CV-RU.pdf" download>Скачать резюме</a>
             <a class="btn btn-ghost" href="#contact">Связаться</a>
-            <a class="btn btn-ghost" href="#contact">Скачать CV</a>
           </div>
         </div>
-        <aside class="panel">
+        <aside class="panel" aria-label="Кратко обо мне">
           <div class="stats">
             <div class="stat">
-              <span class="stat-key">Фокус</span>
-              <span class="stat-val">ПО · Тестирование · Tooling</span>
+              <span class="stat-key">Направления</span>
+              <span class="stat-val">Backend · Инструменты · Тестирование</span>
             </div>
             <div class="stat">
-              <span class="stat-key">Локация</span>
+              <span class="stat-key">Где живу</span>
               <span class="stat-val">Карлоу, Ирландия</span>
             </div>
             <div class="stat">
               <span class="stat-key">Языки</span>
-              <span class="stat-val">Английский и Русский</span>
+              <span class="stat-val">Английский и русский</span>
             </div>
             <div class="stat">
               <span class="stat-key">Ищу</span>
-              <span class="stat-val">Стажировку / Junior</span>
+              <span class="stat-val">Полную занятость: junior / graduate</span>
             </div>
           </div>
-          <p class="panel-note">Сейчас работаю над исследовательским дипломным проектом — инструментом branch coverage instrumentation для C-программ.</p>
+          <p class="panel-note"><span class="status-dot" aria-hidden="true"></span>Сейчас разрабатываю C2obra — инструмент покрытия ветвей для C, который сравниваю с TestCov, TestCoCa и Sikraken.</p>
         </aside>
       </div>
     </section>
@@ -71,17 +88,17 @@
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Обо мне</span>
-          <h2>Практичный инженер с сильным IT-мышлением.</h2>
-          <p>Хорошо чувствую задачи, где важны структура, отладка, tooling, backend-логика и надёжность. Я одинаково комфортно работаю самостоятельно и в команде, технические решения предпочитаю ясные и практичные.</p>
+          <h2>Практичный инженер с опытом в IT.</h2>
+          <p>Мне нравятся задачи, где нужна структура: отладка, инструменты для разработки, backend-логика и программы, которые должны работать надёжно. Одинаково хорошо работаю самостоятельно и в команде, предпочитаю ясные технические решения размытым идеям.</p>
         </div>
         <div class="grid2">
           <article class="card">
             <h3>Как я работаю</h3>
-            <p>Я решаю задачи поэтапно, документирую важное и строю код так, чтобы его можно было поддерживать. Ценю дисциплину в инженерии и измеримый результат.</p>
+            <p>Разбиваю задачу на шаги, документирую важное и пишу код так, чтобы его мог поддерживать другой человек. Ценю дисциплину в инженерии и измеримый результат: проценты покрытия, бенчмарки, зелёный CI.</p>
           </article>
           <article class="card">
-            <h3>Дополнительно</h3>
-            <p>Кандидат в мастера спорта по дзюдо, есть опыт соревнований и тренерской работы. Сейчас тренируюсь в MMA. Свободно владею английским и русским.</p>
+            <h3>Вне программирования</h3>
+            <p>Кандидат в мастера спорта по дзюдо, есть опыт соревнований и тренерской работы. Сейчас занимаюсь MMA. Свободно владею английским и русским.</p>
           </article>
         </div>
       </div>
@@ -91,62 +108,86 @@
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Проекты</span>
-          <h2>Выбранные инженерные работы.</h2>
-          <p>Эти проекты показывают исследовательский tooling, структурированную desktop-разработку и прикладные бизнес-системы с данными и логикой процессов.</p>
+          <h2>Избранные работы.</h2>
+          <p>Исследовательские инструменты, командная разработка бизнес-приложений, desktop-приложения и низкоуровневое системное программирование.</p>
         </div>
-        <div class="grid2" style="margin-bottom:1.2rem">
+
+        <article class="card card-featured">
+          <div class="card-featured-head">
+            <span class="eyebrow">Дипломный проект · 2026 – н. в.</span>
+          </div>
+          <h3>C2obra — инструмент измерения покрытия ветвей для C</h3>
+          <div class="featured-body">
+            <ul class="points">
+              <li>С помощью AST-парсинга на <strong>tree-sitter</strong> находит и инструментирует ветви <code>if</code>, <code>while</code>, <code>for</code>, <code>do-while</code>, <code>switch</code> и тернарные операторы в исходном коде на C.</li>
+              <li>Внедряет собственную <strong>runtime-библиотеку на C</strong>, которая считает срабатывания каждой ветви во время выполнения.</li>
+              <li><strong>Конвейер на Python</strong> параллельно запускает тестовые входные данные, сгенерированные Sikraken, и формирует отчёты о покрытии в HTML и CSV.</li>
+              <li><strong>CI/CD в GitHub Actions</strong> параллельно прогоняет инструмент на бенчмарках и публикует отчёты на GitHub Pages.</li>
+              <li>Протестирован на бенчмарк-программах Test-Comp и сравнён с <strong>TestCoCa, TestCov и Sikraken</strong>. Также спроектировал архитектуру, подготовил UML-диаграммы и техническую документацию.</li>
+            </ul>
+            <dl class="facts">
+              <div><dt>6</dt><dd>типов ветвей</dd></div>
+              <div><dt>HTML + CSV</dt><dd>отчёты о покрытии</dd></div>
+              <div><dt>3</dt><dd>инструмента для сравнения</dd></div>
+            </dl>
+          </div>
+          <div class="tags">
+            <span class="tag">C</span>
+            <span class="tag">Python</span>
+            <span class="tag">Bash</span>
+            <span class="tag">Make</span>
+            <span class="tag">Linux</span>
+            <span class="tag">tree-sitter</span>
+            <span class="tag">gcov/lcov</span>
+            <span class="tag">GitHub Actions</span>
+          </div>
+          <div class="repo-links">
+            <a class="repo-link" href="https://github.com/GlebTut/c2obra" target="_blank" rel="noopener noreferrer">Исходный код ↗</a>
+            <a class="repo-link" href="https://glebtut.github.io/c2obra/" target="_blank" rel="noopener noreferrer">Дашборд покрытия ↗</a>
+          </div>
+        </article>
+
+        <div class="grid3">
           <article class="card">
-            <span class="eyebrow">Проект 01 · 2026 – настоящее время</span>
-            <h3 style="margin-top:.8rem">C2obra – инструмент покрытия ветвей для C-программ</h3>
-            <p>Разработал автоматизированный инструмент инструментирования branch coverage для C-программ в рамках исследовательского дипломного проекта. Реализовал AST-парсинг через tree-sitter для поиска и инструментирования ветвей if/else, while, for и switch. Создал Python-конвейер, который внедряет C runtime-библиотеку, ведёт счётчики срабатываний и генерирует HTML-отчёты покрытия. Сравнил решение с TestCoCa, TestCov и Sikraken на стандартизированных benchmark-программах.</p>
+            <span class="eyebrow">Команда из 5 человек · 2024</span>
+            <h3 class="card-title">AutoSphere — система управления автосервисом</h3>
+            <p>Веб-приложение для ведения клиентов, истории автомобилей, счетов и платежей. Я реализовал паттерны DAO и service layer, участвовал в проектировании и оптимизации схемы базы данных.</p>
             <div class="tags">
-              <span class="tag">C</span>
-              <span class="tag">Python</span>
-              <span class="tag">Bash</span>
-              <span class="tag">Make</span>
-              <span class="tag">Linux</span>
-              <span class="tag">tree-sitter</span>
-              <span class="tag">Gcov/LCOV</span>
-            </div>
-            <a class="repo-link" href="https://github.com/GlebTut/c2obra" target="_blank" rel="noopener noreferrer">github.com/GlebTut/c2obra ↗</a>
-          </article>
-          <article class="card">
-            <span class="eyebrow">Проект 02 · 2024</span>
-            <h3 style="margin-top:.8rem">AutoSphere – система управления автосервисом</h3>
-            <p>Работал в команде из пяти человек над системой управления автосервисом с модулями выставления счетов и платежей. Реализовал паттерны DAO и service-layer, а также участвовал в проектировании и оптимизации схемы базы данных. Система обрабатывает данные клиентов, историю автомобилей, счета и платёжные процессы.</p>
-            <div class="tags">
-              <span class="tag">Java</span>
+              <span class="tag">PHP</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">CSS</span>
               <span class="tag">MySQL</span>
               <span class="tag">MVC</span>
               <span class="tag">DAO</span>
             </div>
-            <a class="repo-link" href="https://github.com/GlebTut/Garage_Management_System" target="_blank" rel="noopener noreferrer">github.com/GlebTut/Garage_Management_System ↗</a>
+            <a class="repo-link" href="https://github.com/GlebTut/Garage_Management_System" target="_blank" rel="noopener noreferrer">Открыть на GitHub ↗</a>
           </article>
-        </div>
-        <div class="grid2">
           <article class="card">
-            <span class="eyebrow">Проект 03 · 2024</span>
-            <h3 style="margin-top:.8rem">Auction System – desktop-приложение</h3>
-            <p>Создал desktop-приложение аукционной системы с управлением лотами, ставками и аутентификацией пользователей. Применил MVC и DAO, спроектировал нормализованную реляционную БД и реализовал валидацию ввода и ролевой контроль доступа.</p>
+            <span class="eyebrow">Desktop · 2024</span>
+            <h3 class="card-title">Auction System — система аукционов</h3>
+            <p>Desktop-приложение с аутентификацией пользователей, управлением лотами и ставками. Нормализованная реляционная схема БД, валидация ввода и ролевое разграничение доступа.</p>
             <div class="tags">
               <span class="tag">Java Swing</span>
               <span class="tag">MySQL</span>
               <span class="tag">MVC</span>
+              <span class="tag">DAO</span>
             </div>
-            <a class="repo-link" href="https://github.com/GlebTut/Auction_System_Project" target="_blank" rel="noopener noreferrer">github.com/GlebTut/Auction_System_Project ↗</a>
+            <a class="repo-link" href="https://github.com/GlebTut/Auction_System_Project" target="_blank" rel="noopener noreferrer">Открыть на GitHub ↗</a>
           </article>
           <article class="card">
-            <span class="eyebrow">Проект 04 · 2024</span>
-            <h3 style="margin-top:.8rem">Проекты на x86_64 Assembly</h3>
-            <p>Разработал низкоуровневые программы на x86_64 Assembly с использованием системных вызовов Linux. Работа показывает понимание управления процессами, взаимодействия с ОС, архитектуры процессора и поведения памяти.</p>
+            <span class="eyebrow">Системное ПО · 2025</span>
+            <h3 class="card-title">Проекты на ассемблере x86_64</h3>
+            <p>Низкоуровневые программы на x86_64, использующие системные вызовы Linux для управления процессами и взаимодействия с ОС, с опорой на знание архитектуры процессора и работы с памятью.</p>
             <div class="tags">
               <span class="tag">NASM</span>
               <span class="tag">x86_64</span>
               <span class="tag">Linux syscalls</span>
               <span class="tag">C</span>
             </div>
-            <a class="repo-link" href="https://github.com/GlebTut/Parameter-Passing-Example---68000-to-x86_64-Conversion" target="_blank" rel="noopener noreferrer">github.com/GlebTut/Parameter-Passing ↗</a>
-            <a class="repo-link" href="https://github.com/GlebTut/OS_PROJECT" target="_blank" rel="noopener noreferrer">github.com/GlebTut/OS_PROJECT ↗</a>
+            <div class="repo-links">
+              <a class="repo-link" href="https://github.com/GlebTut/Parameter-Passing-Example---68000-to-x86_64-Conversion" target="_blank" rel="noopener noreferrer">Передача параметров ↗</a>
+              <a class="repo-link" href="https://github.com/GlebTut/OS_PROJECT" target="_blank" rel="noopener noreferrer">Проект по ОС ↗</a>
+            </div>
           </article>
         </div>
       </div>
@@ -158,51 +199,28 @@
           <span class="eyebrow">Навыки</span>
           <h2>Стек, инструменты и концепции.</h2>
         </div>
-        <div class="grid3" style="margin-bottom:1.2rem">
+        <div class="grid3 mb">
           <article class="card">
-            <h3>Языки программирования</h3>
-            <p>Java, C, Python, JavaScript, PHP, Bash/Shell, x86_64 Assembly (NASM).</p>
-          </article>
-          <article class="card">
-            <h3>Веб-технологии</h3>
-            <p>HTML, CSS, React, Angular, .NET, AJAX.</p>
+            <h3>Языки</h3>
+            <p>C, C++, Java, Python, Go, JavaScript, PHP, Bash, ассемблер x86_64 (NASM).</p>
           </article>
           <article class="card">
             <h3>Базы данных</h3>
-            <p>MySQL, MariaDB.</p>
+            <p>MySQL, MariaDB, проектирование и нормализация реляционных схем.</p>
+          </article>
+          <article class="card">
+            <h3>Веб</h3>
+            <p>HTML, CSS, React, Angular, .NET, AJAX.</p>
           </article>
         </div>
         <div class="grid2">
           <article class="card">
             <h3>Инструменты и платформы</h3>
-            <p>Git, Linux, Make, Gcov/LCOV, tree-sitter, StarUML, LibreOffice.</p>
+            <p>Linux, Git, GitHub, GitHub Actions, GCC, Make, gcov/lcov, tree-sitter, StarUML.</p>
           </article>
           <article class="card">
             <h3>Концепции</h3>
-            <p>Структуры данных, алгоритмы, ООП, паттерны проектирования (MVC, DAO), Agile/Scrum, AST parsing, branch coverage instrumentation.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="education">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Образование</span>
-          <h2>Академическая подготовка.</h2>
-        </div>
-        <div class="grid2">
-          <article class="card">
-            <h3>BSc in Software Development</h3>
-            <p><strong>South East Technological University (SETU), Carlow, Ireland</strong><br>2024 – 2027 (ожидаемый выпуск)</p>
-            <p style="margin-top:.7rem">Year 1 GPA: 79.75% | Year 2 GPA: 77.58% | Year 3 GPA: 70.83%</p>
-            <p style="margin-top:.7rem">Relevant coursework: Software Engineering, Advanced Data Structures and Algorithms, Operating Systems, Cloud Development, Assembly and C, Systems Analysis and Testing, Object-Oriented Software Development, Web Programming and Databases, Computer Networks, Digital Logic.</p>
-          </article>
-          <article class="card">
-            <h3>Certificate in Professional English</h3>
-            <p><strong>Professional English C1 | NFQ Level (SETU), Carlow, Ireland</strong><br>2022 – 2023</p>
-            <p style="margin-top:.7rem">GPA: 83.91% | Classification: Pass</p>
-            <p style="margin-top:.7rem">Modules: English for Professional Communication, Introduction to Information Technology, Introduction to Mathematics, Study Skills, Cultural Competencies.</p>
+            <p>Структуры данных и алгоритмы, ООП, MVC, DAO, service layer, AST-парсинг, инструментирование покрытия ветвей, отладка, Agile/Scrum.</p>
           </article>
         </div>
       </div>
@@ -212,18 +230,55 @@
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Опыт</span>
-          <h2>Работа и стажировки.</h2>
+          <h2>Опыт работы.</h2>
         </div>
         <div class="grid2">
           <article class="card">
-            <h3>IT-Администратор</h3>
-            <p><strong>ООО «Мегаватт», Россия</strong><br>Июнь 2025 – Август 2025</p>
-            <p style="margin-top:.7rem">Восстановил и оптимизировал внутреннюю сетевую инфраструктуру компании, внедрил облачное хранение, настроил внешние подключения и принтеры, развернул новые системы и помогал снижать простой за счёт технической поддержки.</p>
+            <h3>IT-администратор</h3>
+            <p class="meta"><strong>ООО «Мегаватт», Россия</strong><br>Июнь 2025 – август 2025</p>
+            <ul class="points">
+              <li>С нуля перестроил и оптимизировал внутреннюю сетевую инфраструктуру компании.</li>
+              <li>Внедрил облачное хранилище, настроил подключения к внешним серверам и сетевым принтерам.</li>
+              <li>Развернул новые компьютеры и наладил работу учётных записей сотрудников на рабочих ПК.</li>
+              <li>Обеспечивал техническую поддержку и стабильную повседневную работу офиса.</li>
+            </ul>
           </article>
           <article class="card">
-            <h3>Web-разработчик / IT-администратор </h3>
-            <p><strong>ООО «Ломбард Компаньон», Россия</strong><br>Июнь 2024 – Август 2024</p>
-            <p style="margin-top:.7rem">Разработал и опубликовал корпоративный сайт, настраивал и поддерживал офисную IT-инфраструктуру (сеть, интернет, принтеры и рабочие места), участвовал в digital-поддержке бизнеса и базовой настройке контекстной рекламы, а также обеспечивал техническую поддержку пользователей и оперативное устранение неполадок.</p>
+            <h3>Веб-разработчик / IT-администратор</h3>
+            <p class="meta"><strong>ООО «Ломбард Компаньон», Россия</strong><br>Июнь 2024 – август 2024</p>
+            <ul class="points">
+              <li>Разработал и опубликовал сайт компании.</li>
+              <li>Настроил и поддерживал офисную IT-инфраструктуру: сеть, интернет, принтеры и рабочие места.</li>
+              <li>Помогал с цифровыми процессами бизнеса, включая базовую настройку онлайн-рекламы.</li>
+              <li>Оперативно решал повседневные технические проблемы сотрудников.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Образование</span>
+          <h2>Образование.</h2>
+        </div>
+        <div class="grid2">
+          <article class="card">
+            <h3>Бакалавриат: BSc in Software Development</h3>
+            <p class="meta"><strong>South East Technological University (SETU), Карлоу, Ирландия</strong><br>2023 – 2027 (ожидаемый выпуск)</p>
+            <div class="gpa" aria-label="Средний балл по годам">
+              <span><b>79.75%</b>1-й курс</span>
+              <span><b>77.58%</b>2-й курс</span>
+              <span><b>78.41%</b>3-й курс</span>
+            </div>
+            <p>Ключевые дисциплины: программная инженерия, продвинутые структуры данных и алгоритмы, операционные системы, облачная разработка, ассемблер и C, системный анализ и тестирование, объектно-ориентированная разработка, веб-программирование и базы данных, компьютерные сети.</p>
+          </article>
+          <article class="card">
+            <h3>Сертификат подготовки к высшему образованию</h3>
+            <p class="meta"><strong>South East Technological University (SETU), Карлоу, Ирландия</strong><br>2022 – 2023</p>
+            <p>Профессиональный английский, уровень C1, NFQ Level 6. Средний балл: 83.91%.</p>
+            <p>Дисциплины: английский для профессионального общения, введение в информационные технологии, введение в математику, учебные навыки, межкультурные компетенции.</p>
           </article>
         </div>
       </div>
@@ -234,19 +289,23 @@
         <div class="section-head">
           <span class="eyebrow">Контакты</span>
           <h2>Связаться со мной.</h2>
-          <p>Email, GitHub и LinkedIn — самые быстрые способы связи. Открыт для стажировок и junior-позиций.</p>
+          <p>Быстрее всего со мной связаться по email или в LinkedIn. Ищу работу на полную ставку уровня junior или graduate в разработке ПО, backend-разработке, инструментах для разработчиков или тестировании.</p>
         </div>
         <div class="grid2">
           <article class="card">
             <h3>Ссылки</h3>
-            <div class="links" style="margin-top:1rem">
+            <div class="links">
               <a class="link-row" href="mailto:glebtutubalin@gmail.com">
                 <span>Email</span>
                 <span>glebtutubalin@gmail.com</span>
               </a>
-              <a class="link-row" href="tel:+353874342849">
-                <span>Телефон</span>
+              <a class="link-row" href="tel:+79069335920">
+                <span>Телефон (Россия)</span>
                 <span>+7 906 933 5920</span>
+              </a>
+              <a class="link-row" href="tel:+353874342849">
+                <span>Телефон (Ирландия)</span>
+                <span>+353 87 434 2849</span>
               </a>
               <a class="link-row" href="https://github.com/GlebTut" target="_blank" rel="noopener noreferrer">
                 <span>GitHub</span>
@@ -258,16 +317,16 @@
               </a>
             </div>
           </article>
-          <article class="card">
-            <h3>Скачать CV</h3>
+          <article class="card" id="cv">
+            <h3>Скачать резюме</h3>
             <div class="downloads">
-              <a class="dl-btn" href="./Gleb-Tutubalin-CV-RU.pdf" download>
-                <span>Russian CV</span>
-                <span>↓</span>
+              <a class="dl-btn" href="./assets/Gleb-Tutubalin-CV-RU.pdf" download>
+                <span>Резюме на русском <small>PDF</small></span>
+                <span aria-hidden="true">↓</span>
               </a>
-              <a class="dl-btn" href="./Gleb-Tutubalin-CV-EN.pdf" download>
-                <span>English CV</span>
-                <span>↓</span>
+              <a class="dl-btn" href="./assets/Gleb-Tutubalin-CV-EN.pdf" download>
+                <span>Резюме на английском <small>PDF</small></span>
+                <span aria-hidden="true">↓</span>
               </a>
             </div>
           </article>
@@ -275,10 +334,11 @@
       </div>
     </section>
   </main>
+
   <footer class="footer">
     <div class="container footer-inner">
       <span>© 2026 Глеб Тутубалин</span>
-      <span>Студент разработки ПО · Карлоу, Ирландия</span>
+      <span>Разработка ПО · Карлоу, Ирландия</span>
     </div>
   </footer>
 </body>
